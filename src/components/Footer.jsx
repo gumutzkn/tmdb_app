@@ -14,10 +14,13 @@ const Footer = () => {
             navigate('/');
           }}
           className='w-44 h-32 cursor-pointer bg-cover bg-no-repeat bg-center'
-          style={{
-            backgroundImage: `url(${footer_logo})`,
-          }}
-        />
+        >
+          <img
+            src={footer_logo}
+            alt='Footer Logo'
+            className='h-full w-full object-contain'
+          />
+        </div>
       </div>
     </footer>
   );

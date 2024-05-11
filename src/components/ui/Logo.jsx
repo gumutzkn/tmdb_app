@@ -9,10 +9,13 @@ const Logo = () => {
     <div
       onClick={() => navigate('/')}
       className='w-44 h-16 cursor-pointer bg-contain bg-no-repeat bg-center'
-      style={{
-        backgroundImage: `url(${tmdb_logo})`,
-      }}
-    />
+    >
+      <img
+        src={tmdb_logo}
+        alt='Logo'
+        className='h-full w-full object-contain'
+      />
+    </div>
   );
 };
 
