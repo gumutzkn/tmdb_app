@@ -9,7 +9,7 @@ const Popup = () => {
 
   return (
     <div className='fixed top-0 bottom-0 left-0 right-0 bg-black/60 flex justify-center items-center z-[1000]'>
-      <div className='w-[1400px] h-[800px] bg-black flex flex-col relative overflow-hidden rounded-xl'>
+      <div className='w-[1000px] h-[650px] bg-black flex flex-col relative overflow-hidden rounded-xl'>
         <div className='flex justify-between items-center bg-black py-3 px-5 text-white'>
           <div className='font-bold text-lg'>Trailer</div>
           <button onClick={hidePopup}>
